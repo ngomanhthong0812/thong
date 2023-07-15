@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>BaMan</title>
+  <link rel="shortcut icon" href="img/123.png">
+  <link rel="stylesheet" href="shop.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,500&family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+</head>
+<body>
+    <div class="my_container">
+        <div class="my_container_top" style="position: relative;">
+        <div class="top_bar" style="width: 100%;">
+         <div class="top_bar_container">
+            <div class="top_bar_1"><a href="">Hotline: +84392872318</a><a href="">Email: baman@gmail.com</a></div>
+            <div class="top_bar_2"><a href="Dang_Nhap.html">Đăng nhập</a><a href="Dang_Ki.html">Đăng ký</a></div>
+         </div>
+        </div>
+        <div class="my_menu">
+            <img src="img/Untitled.png" alt="">
+            <nav>
+                <ul>
+                  <li><a href="Trang_Chu.html">TRANG CHỦ</a></li>
+                  <li><a href="gioi_thieu.html">GIỚI THIỆU</a>
+                      <li><a href="">SẢN PHẨM
+                          <i class='bx bx-chevron-down'></i>
+                      </a>
+                      <ul>               
+                          <li><a href="san_pham_menu_ao.html">Sản phẩm áo</a></li>
+                          <li><a href="san_pham_menu_quan.html">Sản phẩm quần</a></li>
+                          <li><a href="san_pham_menu_vay.html">Sản phẩm váy</a></li>
+                          <li><a href="san_pham_menu_tui_xach.html">Túi Xách</a></li>
+                          <li><a href="san_pham_menu_giay_dep.html">Giày dép</a></li>
+                          <li><a href="san_pham_menu_phu_kien.html">Phụ kiện</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="tin_tuc.html">TIN TỨC</a></li>
+                  <li><a href="lien_he.html">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+            
+            <div class="menu_icon">
+                <div class="content">
+            <i class='bx bx-cloud-lightning' ></i>
+            <span>Flash</span>
+                </div>
+            <i class='bx bx-search'></i>
+            <i class='bx bx-bookmark-heart'></i>
+            <div class="icon">0</div>
+            <i class='bx bx-shopping-bag' onclick="gio_hang()"></i>
+            <div class="icon">0</div>
+        </div>
+    </div>
+</div>
+       
+      <div class="form_dang_nhap">
+        <div class="form_dang_nhap_1">
+            <div class="form_dang_nhap_1_1">
+            <div class="form_title">
+                <a href="Trang_Chu.html">Trang chủ </a>
+                <span>/</span>
+                <a href="san_pham_menu_quan.html">Quần</a>
+                <span>/</span>
+                <span style="color: #999393;;">Quần Baggy Jeans Nữ Phong Cách</span>
+            </div>
+        </div>
+        </div>
+
+        <div class="container_san_pham">
+        <div class="container">
+            <div class="card_zoom mb-5 p-3" style="background-color: #F4F4F4;">
+                <div class="row no-gutters">
+                  <div class="col-md-6 p-1 overflow-hidden d-block size_img">
+                    <img class="w-99"src="https://bizweb.dktcdn.net/100/456/491/products/kz6cb8fyvc2y67ftu3xx-simg-d0daf0-800x1200-max.jpg?v=1673193856937" alt="..." id="card_zoom">
+                    <div class="imge mt-3 d-flex">
+                        <img class="border border-light card_room_1" src="https://bizweb.dktcdn.net/100/456/491/products/kz6cb8fyvc2y67ftu3xx-simg-d0daf0-800x1200-max.jpg?v=1673193856937" alt="..." onclick="zoom(this)">
+                        <img class="border border-light ml-3 card_room_2" src="https://bizweb.dktcdn.net/100/456/491/products/0kzkbkmh1dck7chifown-simg-d0daf0-800x1200-max.jpg?v=1673193858470" alt="..." onclick="zoom(this)">
+                        <img class="border border-light ml-3 card_room_3" src="https://bizweb.dktcdn.net/100/456/491/products/7f1ucbs6vt6urv6t9wyz-simg-d0daf0-800x1200-max.jpg?v=1673193858817" alt="..." onclick="zoom(this)">
+                        <img class="border border-light ml-3 card_room_4" src="https://bizweb.dktcdn.net/100/456/491/products/lx5yirjkkgi2vfixemku-simg-d0daf0-800x1200-max.jpg?v=1673193859340" alt="..." onclick="zoom(this)">
+                    </div>
+                </div>
+                  <div class="col-md-6 p-1">
+                    <div class="my_card-body px-3">
+                      <h4 class="card-title">Quần Baggy Jeans Nữ Phong Cách</h4>
+                      <p class="card-text">Thương hiệu: <span>Đang cập nhật </span>| Mã sản phẩm: <span>Đang cập nhật</span></p>
+                      <div class="card-text1">
+                          <div class="h text-danger mr-3">Liên hệ</div>
+                          <del class="text-muted mt-2"></del>
+                      </div>
+                      <p class="card-text2">Màu sắc:</p>
+                      <div class="but">
+                        <button class="but1 p-2 border border-dark rounded text-white">Vàng</button>
+                        <button class="but2 p-2 ml-1 border border-dark rounded text-info">Đỏ</button>
+                        <button class="but3 p-2 ml-1 border border-dark rounded text-dark">Xanh</button>
+                        <button class="but4 p-2 ml-1 border border-dark rounded text-dark">Hồng</button>
+                      </div>
+                      <p class="card-text3">Số lượng:</p>
+                      <div class="but">
+                        <button class="butt1 px-3 py-3 border border-info" onclick="giam_1()">-</button>
+                        <button class="butt2 px-5 py-3 border border-info " id="soLuongSanPham_1">1</button>
+                        <button class="butt3 px-3 py-3 border border-info " onclick="tang_1()">+</button>
+                      </div>
+                      <div class="buy_san_pham" style="display: flex;">
+                      <button class="cart w-100 text-white py-3 mb-4" style="background-color: rgb(124, 81, 81);border-radius: 5px;">Mua Ngay</button>
+                      <button class="cart w-100 text-white py-3 mb-4" style="border-radius: 5px;">Thêm Vào Giỏ Hàng</button>
+                    </div>
+                      <div class="sale_card p-4">
+                        <h6>
+                          <img class="gift" src="https://bizweb.dktcdn.net/100/456/491/themes/864044/assets/icon-product-promotion.png?1679755116253" alt="">
+                          Khuyến mại - ưu đãi   
+                        </h6>         
+                        <ul class="promotion-box px-3">
+                          <li>Đồng giá Ship toàn quốc 25.000đ</li>
+                          <li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+                          <li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+                          <li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="lien_he">
+                    <div class="phone">Gọi đặt mua <span style="color: crimson;">0392872318</span> (9:00 - 21:00)</div>
+                    <div class="internet">
+                        <span>Chia sẽ ngay:</span>
+                        <div class="icon">
+                            <i class='bx bxl-facebook-circle' ></i>
+                            <i class='bx bxl-instagram-alt'></i>
+                            <i class='bx bxl-twitter' ></i>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="container_chi_tiet">
+          <div class="chi_tiet">
+            <div class="chi_tiet_top"><h3>Mô tả sản phẩm</h3></div>
+            <div class="chi_tiet_center">
+               <p>Chất liệu: Vải Jeans đẹp và dày dặn - không ra màu khi giặt <br>
+                Đường chỉ may tinh tế và tỉ mỉ 🏆<br>
+                Kích thước: 3 Size S,M,L tương ứng:<br>
+                Size S : eo (60 đến 65), mông (75-82), cân nặng (38-43kg)<br>
+                Size M : eo (67 đến 71 ), mông (83-86), cân nặng (44-47kg)<br>
+                Size L : eo (72 đến 76), mông (87-90), cân nặng (48-55kg)</p>
+        </div>
+          </div>
+          <div class="chi_tiet">
+            <div class="chi_tiet_top"><h3>Chính sách giao hàng</h3></div>
+            <div class="chi_tiet_center">
+              <p><b>BaMan</b> - Thương hiệu thời trang của người trẻ hiện đại! Ra đời vào năm 2016, <b>BaMan</b> luôn nỗ lực với sứ mệnh tạo nên xu hướng thời trang mang đến sự tin tưởng và năng lượng tích cực cho khách hàng. <b>BaMan</b> mang hơi thở của thời trang <b>HIỆN ĐẠI, TRẺ TRUNG, PHÓNG KHOÁNG</b> với những mẫu thiết kế bắt nhịp xu hướng thịnh hành và có tính ứng dụng cao trong mọi hoàn cảnh</p>
+              <br>
+              <b>HÃY ĐẾN BaMan ĐỂ TRẢI NGHIỆM SỰ KHÁC BIỆT!</b>
+            </div>
+          </div>
+          <div class="chi_tiet">
+            <div class="chi_tiet_top"><h3>Chính sách đổi trả</h3></div>
+            <div class="chi_tiet_center">
+              <p><b>BaMan</b> - Thương hiệu thời trang của người trẻ hiện đại! Ra đời vào năm 2016, <b>BaMan</b> luôn nỗ lực với sứ mệnh tạo nên xu hướng thời trang mang đến sự tin tưởng và năng lượng tích cực cho khách hàng. <b>BaMan</b> mang hơi thở của thời trang <b>HIỆN ĐẠI, TRẺ TRUNG, PHÓNG KHOÁNG</b> với những mẫu thiết kế bắt nhịp xu hướng thịnh hành và có tính ứng dụng cao trong mọi hoàn cảnh.</p>
+              <b>HÃY ĐẾN BaMan ĐỂ TRẢI NGHIỆM SỰ KHÁC BIỆT!</b>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card_san_pham_bottom">
+          <div class="card_san_pham_bottom_1"><h2>Sản Phẩm Liên Quan</h2><h3></h3></div>
+          <div class="card_san_pham_bottom_2">
+            
+            <div class="card" style="width: 18rem;">
+                <img src="img/img san pham moi/6.webp" id="card-6" alt="..." onmouseover="hienthi_card(6)" onmouseout="not_hienthi_card(6)" onclick="san_pham(6)">
+                <div class="card_sale">-10%</div> 
+                <div class="hove">
+                    <button class="heart"><a href=""><i class="fa-regular fa-heart"></i></a></button>
+                    <button class="bars"><a href=""><i class="fa-solid fa-bars"></i></a></button>
+                    <button class="expand" onclick="my_zoom_card(6)"><a href=""><i class="fa-solid fa-expand"></i></a></button>
+              </div>
+                <div class="card-body">
+                 <span>PHỤ KIỆN</span>
+                    <p class="card-text">Quần Short Nữ Kèm Dây Đai Thanh Lịch</p>
+                    <div class="price">
+                      <p>190.000đ&#160</p>
+                      <p class="sale_price">230.000đ</p>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 18rem;">
+                <img src="img/img san pham moi/7.webp" id="card-7" alt="..." onmouseover="hienthi_card(7)" onmouseout="not_hienthi_card(7)" onclick="san_pham(7)">
+                <div class="card_sale">-35%</div>
+                <div class="hove">
+                    <button class="heart"><a href=""><i class="fa-regular fa-heart"></i></a></button>
+                    <button class="bars"><a href=""><i class="fa-solid fa-bars"></i></a></button>
+                    <button class="expand" onclick="my_zoom_card(7)"><a href=""><i class="fa-solid fa-expand"></i></a></button>
+              </div>
+                <div class="card-body">
+                 <span>PHỤ KIỆN</span>
+                    <p class="card-text">Quần Baggy Kaki Nữ </p>
+                    <div class="price">
+                      <p>90.000đ&#160</p>
+                      <p class="sale_price">200.000đ</p>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="card" style="width: 18rem;">
+                <img src="img/img san pham moi/8.webp" id="card-8" alt="..."  onmouseover="hienthi_card(8)" onmouseout="not_hienthi_card(8)" onclick="san_pham(8)">
+                <div class="card_sale">-55%</div>
+                <div class="hove">
+                    <button class="heart"><a href=""><i class="fa-regular fa-heart"></i></a></button>
+                    <button class="bars"><a href=""><i class="fa-solid fa-bars"></i></a></button>
+                    <button class="expand" onclick="my_zoom_card(8)"><a href=""><i class="fa-solid fa-expand"></i></a></button>
+              </div>
+                <div class="card-body">
+                    <span>PHỤ KIỆN</span>
+                    <p class="card-text">Quần Kaki Nữ 9 Tắc Màu Tím Nhạc</p>
+                    <div class="price">
+                      <p>189.000đ&#160</p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="https://bizweb.dktcdn.net/100/456/491/products/pmioumgmndfegdh4amhg-simg-d0daf0-800x1200-max.jpg?v=1673361292573" id="card-10" alt="..."  onmouseover="hienthi_card(10)" onmouseout="not_hienthi_card(10)" onclick="san_pham(10)">
+                <div class="card_sale">-45%</div>
+                <div class="hove">
+                    <button class="heart"><a href=""><i class="fa-regular fa-heart"></i></a></button>
+                    <button class="bars"><a href=""><i class="fa-solid fa-bars"></i></a></button>
+                    <button class="expand" onclick="my_zoom_card(10)"><a href=""><i class="fa-solid fa-expand"></i></a></button>
+              </div>
+                <div class="card-body">
+                    <span>PHỤ KIỆN</span>
+                    <p class="card-text">Quần Kaki Nữ 9 Tắc Màu Tím Nhạc</p>
+                    <div class="price">
+                      <p>90.000đ&#160</p>
+                      <p class="sale_price">196.000đ</p>
+                    </div>
+                </div>
+              </div>
+    
+    
+
+          
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+
+      <div class="container_zoom">
+        <i class="fa-solid fa-xmark" onclick="close_room()"></i>
+        <div class="container">
+        <div class="card_zoom mb-5 p-3" style="max-width: 988px; ">
+            <div class="row no-gutters">
+              <div class="col-md-6 p-1 overflow-hidden d-block">
+                <img class="w-99"src="https://bizweb.dktcdn.net/thumb/large/100/456/491/products/7xtwyt-simg-d0daf0-800x1200-max.png" alt="..." id="card_zoom_1">
+                <div class="imge mt-3 d-flex">
+                    <img class="border border-light card_room_1" src="https://bizweb.dktcdn.net/thumb/large/100/456/491/products/7xtwyt-simg-d0daf0-800x1200-max.png" alt="..." onclick="zoom_1(this)">
+                    <img class="border border-light ml-3 card_room_2" src="https://bizweb.dktcdn.net/thumb/large/100/456/491/products/a6gnv4-simg-d0daf0-800x1200-max.png" alt="..." onclick="zoom_1(this)">
+                    <img class="border border-light ml-3 card_room_3" src="https://bizweb.dktcdn.net/thumb/large/100/456/491/products/es97ga-simg-d0daf0-800x1200-max.png" alt="..." onclick="zoom_1(this)">
+                    <img class="border border-light ml-3 card_room_4" src="https://bizweb.dktcdn.net/thumb/large/100/456/491/products/ikfg7s-simg-d0daf0-800x1200-max.png" alt="..." onclick="zoom_1(this)">
+                </div>
+            </div>
+              <div class="col-md-6 p-1">
+                <div class="my_card-body px-3">
+                  <h4 class="card-title">Ví nữ cầm tay phong cách Hàn Quốc</h4>
+                  <p class="card-text">Thương hiệu: <span>Đang cập nhật </span>| Mã sản phẩm: <span>Đang cập nhật</span></p>
+                  <div class="card-text1">
+                      <div class="h text-danger mr-3">120.000đ</div>
+                      <del class="text-muted mt-2">230.000đ</del>
+                  </div>
+                  <p class="card-text2">Màu sắc:</p>
+                  <div class="but">
+                    <button class="but1 p-2 border border-dark rounded text-white">Vàng</button>
+                    <button class="but2 p-2 ml-1 border border-dark rounded text-info">Đỏ</button>
+                    <button class="but3 p-2 ml-1 border border-dark rounded text-dark">Xanh</button>
+                    <button class="but4 p-2 ml-1 border border-dark rounded text-dark">Hồng</button>
+                  </div>
+                  <p class="card-text3">Số lượng:</p>
+                  <div class="but">
+                    <button class="butt1 px-3 py-3 border border-info" onclick="giam()">-</button>
+                    <button class="butt2 px-5 py-3 border border-info " id="soLuongSanPham">0</button>
+                    <button class="butt3 px-3 py-3 border border-info " onclick="tang()">+</button>
+                  </div>
+                  <button class="cart w-100 text-white py-3 mb-4">Thêm vào giỏ hàng </button>
+                  <div class="sale_card p-4">
+                    <h6>
+                      <img class="gift" src="https://bizweb.dktcdn.net/100/456/491/themes/864044/assets/icon-product-promotion.png?1679755116253" alt="">
+                      Khuyến mại - ưu đãi   
+                    </h6>         
+                    <ul class="promotion-box px-3">
+                      <li>Đồng giá Ship toàn quốc 25.000đ</li>
+                      <li>Hỗ trợ 10.000 phí Ship cho đơn hàng từ 200.000đ</li>
+                      <li>Miễn phí Ship cho đơn hàng từ 300.000đ</li>
+                      <li>Đổi trả trong 30 ngày nếu sản phẩm lỗi bất kì</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+ 
+
+
+     <footer>
+      <div class="my_footer">
+        <div class="footer_top">
+          <div class="footer_top_phone">
+            <i class='bx bx-phone-call' ></i>
+            <div class="footer_top_phone_title"><h3>+84392872318</h3><span>Thứ 2 đến chủ nhật: 09:00 - 21:00</span></div>
+          </div>
+          <div class="footer_top_icon">
+            <div class="title">THEO DÕI:</div>
+            <i class='bx bxl-facebook-circle' ></i>
+            <i class='bx bxl-instagram-alt'></i>
+            <i class='bx bxl-twitter' ></i>
+          </div>
+        </div>
+        <div class="footer_center">
+          <div class="footer_center_1">
+            <h3>THÔNG TIN CÔNG TY</h3>
+            <P>Thương hiệu thời trang của người trẻ hiện đại! Ra đời vào năm 2016, LOFISTYLE luôn nỗ lực với sứ mệnh tạo nên xu hướng thời trang mang đến sự tin tưởng và năng lượng tích cực cho khách hàng</P>
+            <div class="center_icon">
+              <i class='bx bxs-map'></i>
+              <span>6/15 An Thường Công Chúa</span>
+            </div>
+            <div class="center_icon">
+              <i class='bx bxs-phone'></i>
+              <span>+84392872318</span>
+            </div>
+            <div class="center_icon">
+              <i class='bx bx-headphone'></i>
+              <span>support@bamman.vn</span>
+            </div>
+          </div>
+          <div class="footer_center_2">
+            <div class="footer_center_2_1">
+              <h3>VỀ CHÚNG TÔI</h3>
+              <div class="footer_center_2_1_menu">
+               <a href="">Trang chủ</a>
+               <a href="">Giới thiệu</a>
+               <a href="">Sản phẩm</a>
+               <a href="">Tin tức</a>
+               <a href="">Liên hệ</a>
+             </div>
+           </div>
+           <div class="footer_center_2_1">
+            <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+            <div class="footer_center_2_1_menu">
+             <a href="">Đơn hàng</a>
+             <a href="">Chính sách giao hàng</a>
+             <a href="">Chính sách đổi trả</a>
+             <a href="">Chính sách bán hàng</a>
+           </div>
+         </div>
+         <div class="footer_center_2_1">
+          <h3>TƯ VẤN KHÁCH HÀNG</h3>
+          <div class="footer_center_2_2_menu">
+           <div>Mua hàng: <a href="">0392872318</a></div>
+           <div>Mua hàng: <a href="">0392872318</a></div>
+           <div>Mua hàng: <a href="">0392872318</a></div>
+         </div>
+       </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_bottom_1">
+            <div>@ Bản quyền thuộc về BaMan Team&#160</div>
+            <span>&#160Cung cấp bởi Pro</span>
+          </div>
+          <div class="footer_bottom_2">
+            <img src="img/bank/1650508432111-tut.png" alt="">
+            <img src="img/bank/1650623741740-logo 700x400 (53).png" alt="">
+            <img src="img/bank/huong-dan-dang-ky-tai-khoan-paypal-1024x512.jpg" alt="">
+            <img src="img/bank/zalopay-tiki.png" alt="">
+          </div>
+        </div>
+
+
+      </div>
+     </footer>
+
+
+
+
+
+
+
+
+
+
+
+       
+    </div>
+
+
+    <script src="shop_1.js"></script>
+    
+</body>
+</html>
